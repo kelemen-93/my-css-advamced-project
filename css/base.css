@@ -1,0 +1,19 @@
+/*-----------*\
+ #BOX SIZING
+\*-----------*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+/*---------------*\
+ #BASE FONT SIZE
+\*---------------*/
+
+html {
+  font-size: 14px;
+}

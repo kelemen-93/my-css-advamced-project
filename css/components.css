@@ -17,6 +17,33 @@
 }
 
 
+.btn__login {
+  background-color: rgba(120, 120, 120, 1);
+  border: 1px solid black;
+}
+
+.btn__login:hover {
+  background-color: rgba(0, 0, 0, 1);
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-out;
+  transition-property: background-color;
+}
+
+
+.btn__sign-up {
+  background-color: rgba(64, 170, 118, 1);
+  border: 1px solid white;
+}
+
+.btn__sign-up:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-out;
+  transition-property: background color;
+}
 
 
 /*-----------*\
@@ -31,12 +58,20 @@
     font-size: 1.286rem;
     padding: 5px 0px;
     border: none;
+    
   }
 
   .icon {
     padding: 6px 10px;
     margin-right: 10px;
+  }
 
+  .icon:hover {
+    background-color: rgba(120, 120, 120, 1);
+    transition-property: background;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
   }
 
 
@@ -64,6 +99,15 @@
       border: 1px solid black;
     }
 
+    .menu:hover {
+      background-color: rgba(64, 165, 77, 1);
+      color: rgba(255, 255, 255, 1);
+      transition-property: background color;
+      transition-duration: 0.5s;
+      transition-delay: 0.1s;
+      transition-timing-function: ease-out;
+    }
+
 
 
 
@@ -82,6 +126,14 @@
     width: 30%;
     height: 20.71rem;
     border: 1px solid grey;
+  }
+
+  .pricing-box:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
   }
 
     .training-level {
@@ -107,6 +159,29 @@
   padding-top: 10px;
 }
 
+.social-info:focus {
+  width: 300px;
+  transition-property: width;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in;
+}
+
 .btn-container {
   margin-top: 20px;
+}
+
+
+
+
+
+/*--------------*\
+ #CONTANCT LINK
+\*--------------*/
+
+.contact {
+  color: rgba(180, 180, 180, 1);
+}
+
+.contact:hover {
+  color: rgba(255, 255, 255, 1);
 }

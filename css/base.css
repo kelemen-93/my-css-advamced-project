@@ -18,6 +18,12 @@ html {
   font-size: 14px;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: lightsteelblue;
+  
+}
+
 
 
 
@@ -29,13 +35,13 @@ html {
 \*----------------*/
 
  .left-sidebar, .pricing-tables, .right-sidebar, .footer {
-  background-color: grey;
+  background-color: rgba(120, 120, 120, 0.7);
   font-size: 2rem;
   padding: 20px;
 }
 
 .header {
-  background-color: grey;
+  background-color: rgba(120, 120, 120, 0.7);
 }
 
 

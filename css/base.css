@@ -11,9 +11,81 @@
 
 
 /*---------------*\
- #BASE FONT SIZE
+ #BASE STYLES
 \*---------------*/
 
 html {
   font-size: 14px;
+}
+
+
+
+
+
+
+
+/*----------------*\
+ #MAIN PARTS STYLE
+\*----------------*/
+
+ .left-sidebar, .pricing-tables, .right-sidebar, .footer {
+  background-color: grey;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.header {
+  background-color: grey;
+}
+
+
+
+
+
+/*--------------*\
+ #PRICING TABLES
+\*--------------*/
+
+
+.training-level {
+  font-size: 2rem; 
+}
+
+.price {
+  font-size: 1.78rem;
+  background-color: lightcoral;
+}
+
+.features {
+  font-size: 1.286rem;
+ 
+}
+
+.training-level, .price, .features {
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+
+
+
+
+/*------*\
+ #LABELS
+\*------*/
+
+.label {
+  font-size: 16px;
+}
+
+
+
+
+/*-------*\
+ #FOOTER
+\*-------*/
+
+.footer {
+  font-size: 1.2rem;
+  color: #f1f1f1;
 }

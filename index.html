@@ -9,6 +9,7 @@
   <link href="css/base.css" rel="stylesheet">
   <link href="css/layout.css" rel="stylesheet">
   <link href="css/components.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   
@@ -20,11 +21,12 @@
     
     <div class="header">
       
-      <a class="btn btn__login" href="#"></a>
-      <a class="btn btn__sign-up" href="#"></a>
-      <div class="search-container">
+      <a class="item-1 btn btn__login" href="#">Login</a>
+      <a class="item-2 btn btn__sign-up" href="#">Sign Up</a>
+      <div class="item-3"></div>
+      <div class="item- 4 search-container">
         <input type="text" placeholder="Search..." name="search" class="input-field">
-        <button type="submit"></button>
+        <button type="submit" class="icon fa fa-search"></button>
       </div>
       
     </div>
@@ -46,19 +48,79 @@
     
     <!-- Left Sidebar ends here -->
     
+    <!-- Pricing Tbales starts here -->
+    
     <div class="pricing-tables">
       
+      <div class="pricing-box">
+       <h2 class="training-level">Basic</h2>
+       <h3 class="price">$4.99</h3>
+       <ul class="feature-list">
+         <li class="features">25 Music sheets</li>
+         <li class="features">Beginner lessons</li>
+         <li class="features">Beginner music theory</li>
+         <li class="features">Practice schedule</li>
+       </ul>
+       <a href="#" class="btn btn__sign-up">Begin</a>
+      </div>
       
+      <div class="pricing-box">
+       <h2 class="training-level">Andvanced</h2>
+       <h3 class="price">$15.99</h3>
+       <ul class="feature-list">
+         <li class="features">50 Music sheets</li>
+         <li class="features">Intermediate lessons</li>
+         <li class="features">Intermediate music theory</li>
+         <li class="features">Online help</li>
+       </ul>
+       <a href="#" class="btn btn__sign-up">Begin</a>
+      </div>
+      
+      <div class="pricing-box">
+       <h2 class="training-level">Basic</h2>
+       <h3 class="price">$35.99</h3>
+       <ul class="feature-list">
+         <li class="features">All Music sheets</li>
+         <li class="features">Pro lessons</li>
+         <li class="features">Pro music theory</li>
+         <li class="features">Live online lessons</li>
+       </ul>
+       <a href="#" class="btn btn__sign-up">Begin</a>
+      </div>
       
     </div>
     
-    <div class="right-sidebar">Right Sidebar</div>
+    <!-- Pricing Tables ends here -->
     
-    <div class="footer">Footer</div>
+    <div class="right-sidebar">
+      
+      <div class="input-container">
+        
+        <label class="label" for="fname">First Name</label>
+        <input class="input-field social-info" type="text" name="firstname" placeholder="Your name...">
+      
+        <label class="label" for="lname">Last Name</label>
+        <input class="input-field social-info" type="text" name="lastname" placeholder="Your last name...">
+      
+        <label class="label" for="email">E-mail</label>
+        <input class="input-field social-info" type="text" name="email" placeholder="Your e-mail...">
+        
+      </div>
+        
+      <div class="btn-container">
+       <a href="#" class="btn btn__login">Login</a>
+       <a href="#" class="btn btn__sign-up">Sign Up</a>
+      </div>
+      
+    </div>
+    
+    <div class="footer">
+      <p>Contact: <a href="#">kgabesz18@gmail.com</a></p>
+    </div>
     
   </div>
   
-  <!--Main COnteiner ends here -->
+  <!--Main Container ends here -->
   
 </body>
 </html>
